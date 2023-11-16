@@ -1,0 +1,27 @@
+header{
+    background-color: $violeta;
+    nav{
+        height: 80px;
+        margin: 10px auto;
+        ul{
+            list-style-type: none;
+            padding-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            li{
+                a{
+                    padding: 10px;
+                    margin: 10px;
+                    color: white;
+                    text-decoration: none;
+                    &:hover {
+                        background-color: ea76ea;
+                        color: $violeta;
+                        border-radius: 20%;
+                    }
+                }
+            }
+        }
+    }
+}

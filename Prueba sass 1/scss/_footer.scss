@@ -1,0 +1,11 @@
+footer{
+    background-color: $violeta;
+    h3{
+        color: rgb(201, 175, 175);
+        text-align: center;
+        padding: $pad;
+        &:hover{
+            color: rbg(0, 255, 123);
+        }
+    }
+}
